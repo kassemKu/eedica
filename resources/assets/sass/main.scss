@@ -1,0 +1,118 @@
+html, body {
+  word-spacing: 3px;
+}
+.ee-en {
+  // font-family: $font-family-sans-serif;
+  font-family: "Ubuntu";
+  font-weight: 500;
+}
+.uk-grid {
+  margin-left: 0;
+}
+
+.ee-light {
+  color: $light;
+}
+
+.ee-background-blue {
+  background-color: $blue-color;
+}
+
+.ee-border {
+  border: $global-border;
+}
+
+.ee-border-circle {
+  border: $global-border;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.ee-border-bottom {
+  border-bottom: $global-border;
+}
+
+.ee-border-left{
+  border-left: $global-border;
+}
+.ee-border-right{
+  border-right: $global-border;
+}
+
+.ee-border-red {
+  border-color: $global-danger-background !important;
+}
+
+.ee-border-blue {
+  border-color: $global-primary-background !important;
+}
+
+// Overrides
+// Table
+p {
+  font-size: 12px;
+}
+
+.uk-table th {
+  text-align: right;
+}
+dd {
+  margin-right: 0;
+}
+// .uk-table-hover:hover td {
+//   color: black
+// }
+// Form
+input[placeholder], .uk-textarea {
+  font-size: 0.850rem;
+  word-spacing: 3px;
+}
+.uk-input, .uk-button:not(.uk-button-text), .uk-textarea, .uk-checkbox, .uk-select, .uk-radio {
+  border: $global-border
+}
+
+.uk-panel-scrollable {
+  border: none;
+}
+
+/**
+** Manage
+**/
+// Data Piker
+.vdp-datepicker {
+  text-align: right !important;
+}
+
+.vdp-datepicker > div > input {
+  width: 100%;
+  height: 100%;
+  height: 40px;
+  vertical-align: middle;
+  display: inline-block;
+  border: $global-border
+}
+
+/**
+** Client
+**/
+//  Services
+.ee-services {
+  background-color: $blue-color;
+}
+.ee-services .uk-align-right {
+  margin-left: 10px;
+}
+
+// Courses
+.ee-courses .uk-card-badge {
+  top: 20px;
+  right: 80%;
+}
+.ee-register-button:hover {
+  color: $global-danger-background;
+}
+
+// Footer 
+.ee-footer {
+  background-color: $blue-color;
+}
